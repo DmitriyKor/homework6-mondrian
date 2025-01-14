@@ -1,3 +1,14 @@
+table {
+    border: 10px solid black;    
+    border-collapse: collapse;
+}
+
+td {
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+}
+
 .rouge {
     background-color: red;
 }

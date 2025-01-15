@@ -1,47 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
     </header>
     <main>
         <section>
-            <h1>Le tableau de Piet Mondrian</h1>
+            <h1>Piet Mondrian</h1>
         </section>
+        
         <table>
-            <tr>
-                <td colspan="2"></td>
-                <td colspan="3"></td>
-                <td colspan="2" class="jaune"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td rowspan="2"></td>
-                <td colspan="4" rowspan="2" class="rouge"></td>
-                <td colspan="2" rowspan="2" class="jaune"></td>
-                <td></td>
-            </tr>            
-            <tr>
-                <td></td>
-            </tr>            
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>              
-            </tr>
+            <tbody>
+                <tr id="tr1">
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <td colspan="2" class="jaune"></td>
+                    <td style="width: 40px;" class="hide_bottom"></td>
+                </tr>
+                <tr id="tr2">
+                    <td rowspan="2"></td>
+                    <td colspan="4" rowspan="4" class="red"></td>
+                    <td colspan="2" rowspan="2" class="jaune"></td>
+                    <td style="width: 40px;" class="hide_bottom hide_top"></td>
+                </tr>
+                <tr id="tr3">
+                    <td style="width: 40px;" class="hide_bottom hide_top"></td>
+                </tr>
+                <tr id="tr4">
+                    <td rowspan="3"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td style="width: 40px;" class="hide_bottom hide_top"></td>
+                </tr>
+                <tr id="tr5">
+                    <td style="width: 40px;" class="hide_bottom hide_top"></td>
+                </tr>
+                <tr id="tr6">
+                    <td colspan="2" class="black"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2"></td>
+                    <td style="width: 40px;" class="hide_top"></td>
+                </tr>
+                <tr id="tr7">
+                    <td rowspan="3" class="jaune"></td>
+                    <td colspan="2" class="black"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2" rowspan="2" class="blue"></td>
+                    <td style="width: 40px;" rowspan="3" class="red"></td>
+                </tr>
+                <tr id="tr8">
+                    <td class="hide_bottom"colspan="2"></td>
+                    <td style="width: 40px;" colspan="2" class="black"></td>
+                </tr>
+                <tr id="tr9">
+                    <td style="height: 40px;" class="hide_top hide_right"></td>
+                    <td style="height: 40px;" class="hide_top hide_left"></td>
+                    <td style="height: 40px;" class="hide_right"></td>
+                    <td style="height: 40px;" class="hide_left hide_right"></td>
+                    <td style="height: 40px;" class="hide_left hide_right"></td>
+                    <td style="width: 40px; height: 40px;" class="hide_left"></td>
+                </tr>
+            </tbody>
         </table>
     </main>
     <footer>
     </footer>
 </body>
+
 </html>

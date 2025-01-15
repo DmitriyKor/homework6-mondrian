@@ -39,3 +39,11 @@ td {
 .hide_right {
     border-right: none;    
 }
+
+.narrow {
+    width: 40px;
+}
+
+.low {
+    height: 40px;
+}
